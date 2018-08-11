@@ -1,9 +1,14 @@
 
 export default {
 
-  namespace: 'example',
+  namespace: 'table',
 
-  state: {},
+  state: {
+    api: '',
+    loginurl: '',
+    logout: '',
+    sources: [],
+  },
 
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line
